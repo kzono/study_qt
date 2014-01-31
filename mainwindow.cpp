@@ -29,7 +29,6 @@ void MainWindow::printUserNameAndPassword()
 {
     setUserName(ui->lineEdit->text());
     setPassword(ui->lineEdit_2->text());
- //   std::cout << userName_ << ":" << password_ << std::endl;
     std::string proxy = userName_ + ":" + password_ + "@proxy.matsuzon.org:8080";
     std::cout << proxy << std::endl;
  //   putenv((char*)(proxy.c_str()));
